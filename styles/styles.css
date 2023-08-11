@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+table {
+    border: 2px solid black;
+    margin-left: 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: -50px;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: darkgray;
+}
+
+li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.name {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.email {
+    border: 2px solid black;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.message {
+    border: 2px solid black;
+    width: 200px;
+    height: 80px;
+    margin-top: 5px;
+    resize: none;
+    margin-left: 15px;
+    display: inline-block;
+    position: sticky;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.nlabel,
+.elabel {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.msglabel {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-left: -10px;
+}
